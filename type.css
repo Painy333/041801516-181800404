@@ -31,7 +31,7 @@ p {
 .button_left {
     position: relative;
     left: auto;
-    width: 226px;
+    width: 149px;
     padding: 10px;
     opacity: 0.8;
 }
@@ -39,7 +39,7 @@ p {
 .button_right {
     position: relative;
     right: auto;
-    width: 226px;
+    width: 149px;
     padding: 10px;
     opacity: 0.8;
 }
@@ -68,4 +68,13 @@ p {
     fill: none;
     stroke: burlywood;
     stroke-width: 1px;
+}
+
+#skill{
+    text-align: center;
+    color: rgb(243, 111, 49);
+    font: 30px "隶书", sans-serif;
+    font-style:italic;
+    line-height: auto;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
 }
