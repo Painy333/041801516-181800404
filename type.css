@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/qwq.jpeg");
+    background-size: 100%;
+    background-position: center;//调整背景图片位置
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: auto;
+    opacity: 0.8;
+}
+
+.button_left {
+    position: relative;
+    left: auto;
+    width: 226px;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.button_right {
+    position: relative;
+    right: auto;
+    width: 226px;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: rgb(0, 0, 128);
+    stroke: rgb(0, 0, 128);
+    stroke-width: 3px;
+}
+
+.node rect {
+    fill: #FF8C00;
+    stroke: #FF8C00;
+    stroke-width: 2px;
+}
+
+.node text {
+    font: 18px "隶书", sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: burlywood;
+    stroke-width: 1px;
+}
